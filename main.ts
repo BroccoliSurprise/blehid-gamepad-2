@@ -1,3 +1,6 @@
+/**
+ * Må finjustere og legge til dødsone
+ */
 control.onEvent(EventBusSource.MICROBIT_ID_BUTTON_A, EventBusValue.MICROBIT_BUTTON_EVT_UP, function () {
     gamepad.send(
     gamepad._buttons(GameButton.A, false),
